@@ -37,7 +37,6 @@ if [ $choice == "3" ]
 fi
 if [ $choice == "4" ]
     then
-    echo "Installing Minecraft Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/scripts/addons.sh)
 fi
 if [ $choice == "5" ]
