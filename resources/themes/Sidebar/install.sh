@@ -29,9 +29,9 @@ else
 fi
 
 cd /var/www/pterodactyl/resources/scripts/routers
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/Sidebar/ServerRouter.css
+wget https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/Sidebar/ServerRouter.css
 rm -r ServerRouter.tsx
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/Sidebar/ServerRouter.tsx
+wget https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/Sidebar/ServerRouter.tsx
 #clear
 cd /var/www/pterodactyl
 
@@ -60,4 +60,4 @@ yarn add react-pro-sidebar
 yarn build:production
 #clear
 php /var/www/pterodactyl/artisan up
-echo "DarkNBlue theme added"
+echo "Sidebar theme added"
