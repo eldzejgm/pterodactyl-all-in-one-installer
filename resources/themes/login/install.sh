@@ -1,10 +1,10 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts/assets/css/
 rm GlobalStylesheet.ts
-wget https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/login/resources/scripts/assets/css/GlobalStylesheet.ts
+wget https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/login/resources/scripts/assets/css/GlobalStylesheet.ts
 cd /var/www/pterodactyl/resources/scripts/components/auth/
 rm LoginFormContainer.tsx
-wget https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/login/resources/scripts/components/auth/LoginFormContainer.tsx
+wget https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/login/resources/scripts/components/auth/LoginFormContainer.tsx
 clear
 cd /var/www/pterodactyl
 yarn add react-tsparticles@1.43.1
