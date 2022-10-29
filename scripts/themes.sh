@@ -44,8 +44,8 @@ if [ $choice == "6" ]
 fi
 if [ $choice == "7" ]
     then
-    echo "Installing Minecraft Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/mcTheme/install.sh)
+    echo "Installing SyncTheme..."
+    bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/SyncTheme/install.sh)
 fi
 if [ $choice == "8" ]
 then
