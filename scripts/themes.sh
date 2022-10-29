@@ -5,10 +5,11 @@ echo "3. DarkNYellow"
 echo "4. DarkNGreen"
 echo "5. DarkNPurple"
 echo "6. MinecraftTheme"
-echo "7. Install Animated Background theme"
-echo "8. Install Animatedlogin"
-echo "9. Install Sidebar (Unstable)"
-echo "10. Close / Cancel"
+echo "7. SyncTheme"
+echo "8. Install Animated Background theme"
+echo "9. Install Animatedlogin"
+echo "10. Install Sidebar (Unstable)"
+echo "11. Close / Cancel"
 echo ""
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
@@ -42,21 +43,26 @@ if [ $choice == "6" ]
     bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/mcTheme/install.sh)
 fi
 if [ $choice == "7" ]
+    then
+    echo "Installing Minecraft Theme..."
+    bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/mcTheme/install.sh)
+fi
+if [ $choice == "8" ]
 then
     echo "Resource temporarily Disabled..."
     #bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/mvb/install.sh)
 fi
-if [ $choice == "8" ]
+if [ $choice == "9" ]
     then
     echo "Installing Animated Login Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/login/install.sh)
 fi
-if [ $choice == "9" ]
+if [ $choice == "10" ]
     then
     echo "Installing Sidebar Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/eldzejgm/pterodactyl-all-in-one-installer/main/resources/themes/Sidebar/install.sh)
 fi
-if [ $choice == "10" ]
+if [ $choice == "11" ]
     then
     echo "Canceling..."
     exit 0
