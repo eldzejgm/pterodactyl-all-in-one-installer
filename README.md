@@ -3,7 +3,7 @@
 
 All-in-one installer with themes, plugins, updater, backup restore and ControlPanel.gg installation for Pterodactyl Panel ``V1.x.x`` this will not work on ``0.x.x``
 
-Pterodactyl Panel 1.10.4 is supported.
+Pterodactyl Panel 1.11.2 is supported.
 
 
 
