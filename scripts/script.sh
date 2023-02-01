@@ -29,7 +29,7 @@ fi
 if [ $choice == "2" ]
     then
     echo "Installing ControlPanel.gg..."
-    bash <(curl -sSL https://raw.githubusercontent.com/vilhelmprytz/ControlPanel-gg-install-script/master/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/Ferks-FK/ControlPanel-Installer/development/install.sh)
 fi
 if [ $choice == "3" ]
     then
